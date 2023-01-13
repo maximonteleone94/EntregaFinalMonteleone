@@ -1,147 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MRM Detail</title>
-    <link rel="shortcut icon" href="../favicon.png/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<nav>
-    <a href="../index.html">
-        <img src="../headers/logo.webp" alt="logo mrm detail">
-    </a>
-    <ul>
-        <li>
-           <a href="nosotros.html">Nosotros</a> 
-        </li>
-        <li>
-          <a href="servicios.html"> Servicios</a> 
-        </li>
-        <li>
-           <a href="productos.html">Productos</a> 
-        </li>
-        <li>
-          <a href="promociones.html">Promociones</a>  
-        </li>
-        <li>
-          <a href="contacto.html">Contacto</a>  
-        </li>
-    </ul>
-</nav>
-<!-- cierrra nav -->
-<!-- inicia header -->
+    <nav class="navbar navbar-expand-lg" id="botonera">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../headers/logo.webp" alt="logo mrm detail">
+          </a>
+          <button class="navbar-toggler bg-orange" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
 <header>
+
     <h1>PRODUCTOS</h1>
+ <section class="d-flex justify-content-space m-50"> 
+    <div class="d-flex justify-content-space footer">
     <img src="../headers/productos1.jpg" alt="tratamiento de pintura vehiculo brilloso">
-</header>
-<!-- cierra header -->
-<!-- inicia main -->
-<main>
-     
-    <h2>Trabajamos toda la linea Taurus Detailing Store</h2>
-    <a href="https://www.instagram.com/taurus.detailingstore" target="_blank"> 
-        <img class="d-flex pie__icon--sm" src="../Icono/instagram.png" alt="seguínos en instagram"> https://www.instagram.com/taurus.detailingstore </a> <br>
-</main>
-<!-- cierra main -->
-<!-- inicia section -->
-<section>
-    <table border="2px"  > 
-        <tr>
-            <th>Producto</th>
-            <th></th>
-            <th>Precio</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/perfumes.jpg" alt=""></th>
-            <th>Perfumes</th>
-            <th>$450</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/shampo.jpg" alt="shampoo"></th>
-            <th>Shampoo</th>
-            <th>$740</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/sampoowax.jpg" alt="sampoowax"></th>
-            <th>Shampoo Wax</th>
-            <th>$830</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/foam.jpg" alt="foamrain"></th>
-            <th>Espuma Activa</th>
-            <th>$780</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/apc.jpg" alt="apc"></th>
-            <th>Limpiador Multipropósito</th>
-            <th>$830</th>
-        </tr>
-        <tr>
-           <th> <img src="../productos/desengrasante.jpg" alt=""></th>
-        <th>Desengrasate</th>
-        <th>$1040</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/limpiacristal.jpg" alt=""></th>
-            <th>Limpia Cristales</th>
-            <th>$560</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/limpiatapi.jpg" alt=""></th>
-            <th>Limpia Tapizados</th>
-            <th>$740</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/quick.jpg" alt=""></th>
-            <th>Quick Detail</th>
-            <th>$890</th>
-        </tr>
-        <tr>
-            <th><img src="../productos/liquid.jpg" alt=""></th>
-            <th>Cera De Alto Brillo</th>
-            <th>$990</th>
-        </tr>
-        <tr>
-        <th><img src="../productos/carnauba.jpg" alt=""></th>
-        <th>Cera De Carnauba Líquida</th>
-        <th>$1090</th>
-    </tr>
-    <tr>
-        <th><img src="../productos/orig.jpg" alt=""></th>
-        <th>Acondicionador de interior acabado mate</th>
-        <th>$1035</th>
-    </tr>
-    <tr>
-        <th><img src="../productos/gloss.jpg" alt=""></th>
-        <th>Acondicionador de interior acabado brilloso</th>
-        <th>$1035</th>
-    </tr>
-    <tr>
-        <th><img src="../productos/plastic.jpg" alt=""></th>
-        <th>Restaurador de plasticos</th>
-        <th>$1500</th>
-    </tr>
-    <tr>
-        <th><img src="../productos/gwg.jpg" alt=""></th>
-        <th>Acondicionador de cubiertas satín</th>
-        <th>$1800</th>
-    </tr>
-    <tr>
-        <th><img src="../productos/extreme.jpg" alt=""></th>
-        <th>Acondicionador En GEL PURO</th>
-        <th>$3200</th>
-    </tr>
+    </div>
 
 
+    <div>
+    <h2 class="m-t-4">Trabajamos toda la linea Taurus Detailing Store</h2>
 
-
-    </table>
+    <a class="txt-t" href="https://www.instagram.com/taurus.detailingstore" target="_blank"> 
+    <div class="text-center">
+        <img class="d-flex pie__icon--sm m-a m-t-4" src="../Icono/instagram.png" alt="seguínos en instagram"> https://www.instagram.com/taurus.detailingstore </a> 
+    </div>
+    </div>
 </section>
-<!-- cierra section -->
+</header>
 
+<section>
+  <section class="container-fluid">
+    <div class="row py-2 text-center">
+      <article class="col-sm-12 col-md-5 col-lg-3">
+        <figure class="figure">
+          <img src="../productos/perfumes.jpg" class="figure-img img-fluid rounded" alt="perfumes">
+          <figcaption class="figure-caption">Perfumes</figcaption>
+          <p>$520</p>
+          </a>
+        </figure>
+        </article>
+        
+        <article class="col-sm-12 col-md-5 col-lg-3">
+          <figure class="figure">
+            <img src="../productos/shampo.jpg" class="figure-img img-fluid rounded" alt="shampoo para vehiculo">
+            <figcaption class="figure-caption">Shampoo</figcaption>
+            <p>$980</p>
+          </a>
+          </figure>
+          </article>
 
+        <article class="col-sm-12 col-md-5 col-lg-3">
+          <figure class="figure">
+            <img src="../productos/sampoowax.jpg" class="figure-img img-fluid rounded" alt="shampoo con cera para vehiculo">
+            <figcaption class="figure-caption">Shampoo Wax</figcaption>
+            <p>$1080</p>
+          </a>
+          </figure>
+          </article>
+
+        <article class="col-sm-12 col-md-5 col-lg-3">
+        <figure class="figure">
+          <img src="../productos/foam.jpg" class="figure-img img-fluid rounded" alt="Espuma activa para vehiculo"> 
+          <figcaption class="figure-caption">Espuma Activa</figcaption>
+          <p>$990</p>
+        </a>
+        </figure>
+        </article>
+        <article class="col-sm-12 col-md-5 col-lg-3" >
+        <figure class="figure">
+          <img src="../productos/apc.jpg" class="figure-img img-fluid rounded" alt="Limpiador Multipropósito">
+          <figcaption class="figure-caption">APC</figcaption>
+          <p>$995</p>
+        </a>
+        </figure>
+        </article>
+        <article class="col-sm-12 col-md-5 col-lg-3">
+        <figure class="figure">
+          <img src="../productos/desengrasante.jpg" class="figure-img img-fluid rounded" alt="desengrasante">
+          <figcaption class="figure-caption">Desengrasate</figcaption>
+          <p>$1180</p>
+        </a>
+        </figure>
+        </article>
+        <article class="col-sm-12 col-md-5 col-lg-3" >
+          <figure class="figure">
+            <img src="../productos/quick.jpg" class="figure-img img-fluid rounded" alt="cera liquida">
+            <figcaption class="figure-caption">Quick Detail</figcaption>
+            <p>$990</p>
+          </a>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3">
+          <figure class="figure">
+            <img src="../productos/liquid.jpg" class="figure-img img-fluid rounded" alt="cera de alto brillo">
+            <figcaption class="figure-caption">Liquid Wax</figcaption>
+            <p>$1190</p>
+          </a>
+          </figure>
+          </article>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3" >
+          <figure class="figure">
+            <img src="../productos/carnauba.jpg" class="figure-img img-fluid rounded" alt="cera de carnauba liquida">
+            <figcaption class="figure-caption">Carnauba Wax</figcaption>
+            <p>$1390</p>
+          </a>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3">
+          <figure class="figure">
+            <img src="../productos/orig.jpg" class="figure-img img-fluid rounded" alt="acondicionador de interiores">
+            <figcaption class="figure-caption">Original Finish</figcaption>
+            <p>$1395</p>
+          </a>
+          </figure>
+          </article>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3" >
+          <figure class="figure">
+            <img src="../productos/gloss.jpg" class="figure-img img-fluid rounded" alt="acondicionador de interiores">
+            <figcaption class="figure-caption">Gloss Finish</figcaption>
+            <p>$1395</p>
+          </a>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3">
+          <figure class="figure">
+            <img src="../productos/limpiacristal.jpg" class="figure-img img-fluid rounded" alt="Limpia cristales">
+            <figcaption class="figure-caption">Glass Cleaner</figcaption>
+            <p>$795</p>
+          </a>
+          </figure>
+          </article>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3" >
+          <figure class="figure">
+            <img src="../productos/extreme.jpg" class="figure-img img-fluid rounded" alt="acondicionador de cubiertas">
+            <figcaption class="figure-caption">Extreme Shine Wheel</figcaption>
+            <p>$3600</p>
+          </a>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3">
+          <figure class="figure">
+            <img src="../productos/gwg.jpg" class="figure-img img-fluid rounded" alt="acondicionador de cubiertas">
+            <figcaption class="figure-caption">Gloos Wheel Gel</figcaption>
+            <p>$2000</p>
+          </a>
+          </figure>
+          </article>
+          <article class="col-sm-12 col-md-5 col-lg-3" >
+            <figure class="figure">
+              <img src="../productos/limpiatapi.jpg" class="figure-img img-fluid rounded" alt="Limpia tapizados">
+              <figcaption class="figure-caption">Limpia Tapizados</figcaption>
+              <p>$980</p>
+            </a>
+            </figure>
+            </article>
+            <article class="col-sm-12 col-md-5 col-lg-3">
+            <figure class="figure">
+              <img src="../productos/plastic.jpg" class="figure-img img-fluid rounded" alt="restaurador de plasticos">
+              <figcaption class="figure-caption">Plastic Restorer</figcaption>
+              <p>$1995</p>
+            </a>
+            </figure>
+            </article>
+      </div>
+    </div>
+    </section>  
+  </figure>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
-</>
+</html>

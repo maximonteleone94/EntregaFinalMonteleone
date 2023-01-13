@@ -139,6 +139,11 @@ footer section div h3{
     font-size: 1.5em;
     font-weight: 750;
 }
+
+.foto-chica{
+    width: 300px;
+    height: 450px;
+}
 .foto-media{
     width: 650px;
     height: 800px;
@@ -178,4 +183,16 @@ background-color: black;
 
 .txt-t{
     color: rgb(239, 127, 26);
+}
+
+.m-a{
+    margin: auto;
+}
+
+.m-t-4{
+    margin-top: 4rem;
+}
+
+.m-50{
+    margin: 50px;
 }
