@@ -1,0 +1,104 @@
+*{  font-family: 'Noto Sans', sans-serif;
+    color: $mainColor;
+}
+body{
+    background-image: url(../headers/Black-Car-Amoled-Wallpaper.jpg );
+    background-repeat: repeat;
+    background-attachment: unset;
+    }
+a{
+        text-decoration: none;
+    }
+header{
+        height:auto;
+    }
+header h1{
+        text-align: center;
+        font-size: $fontXXl;
+    }
+h2{
+        text-align: center;
+        font-size: $fontXl;
+    }
+.text-p{
+        font-size: $Fontm;
+    }
+main{
+        width: 100%;
+        height: auto; 
+        margin: 20px;
+    }
+main section img{
+        width: 200px;
+        height: 200px; 
+        margin: 10px;  
+    }
+main section figcaption{
+        text-align: center;
+    }
+.d-flex{
+        display: flex;
+    }
+footer section div h3{
+        font-size: $Fontl;
+    }
+.justify-content-space{
+        justify-content: space-around;
+    }
+    
+.justify-content-center{
+        justify-content: center;
+    }
+.img-250{
+        width: 250px;
+        height: 250px;
+    }
+.text-center{
+        text-align: center;
+    }
+.text-right{
+        text-align: right;
+    }
+.grid-template-colums-row{
+        grid-template-columns: 250px 250px;
+        background-color: aqua;
+    }
+.bg-green{
+        background-color: forestgreen;
+        width: 300px;
+        height: 300px;
+    }
+.bg-red{
+        width: 300px;
+        height: 400px;
+        margin-top: auto;
+    }
+.footer{
+        width: 100%;
+    }
+.items-center{
+        align-items: center;
+    }
+.widi-i{
+        width: 100%;
+        height: 80px;
+    }
+.bg-orange{
+        background-color:$mainColor ;
+    }
+.txt-t{
+        color: $mainColor;
+    }
+.m-a{
+        margin: auto;
+    }
+.m-t-4{
+        margin-top: 4rem;
+    }
+.m-50{
+        margin: 50px;
+    }
+.iframe-m{
+        width: 50px;
+        height: 50px;
+    }

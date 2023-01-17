@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2monteleone",
+  "version": "1.0.0",
+  "description": "Buenas noches, las paginas finalizadas y a entregar son index.html y contacto.html. Saludos y felices fiestas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximonteleone94/PreEntrega2Monteleone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximonteleone94/PreEntrega2Monteleone/issues"
+  },
+  "homepage": "https://github.com/maximonteleone94/PreEntrega2Monteleone#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {}
+}

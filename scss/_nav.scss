@@ -1,0 +1,44 @@
+
+nav{
+    padding: 6px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+    width: 250px;
+
+      ul{
+    display: flex;
+    list-style: none;
+
+       li{
+    margin-right: 30px;
+
+        a{
+    text-decoration: none;
+    font-size: $Fonts;
+    }
+   }
+  }
+ }
+}
+#botonera{
+background-color: black;
+}
+#botonera ul li a{
+    color: $mainColor ;
+    font-size: $fontXs;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    border: none;
+
+}
+#botonera ul li a:hover{
+    color: $alternativColor;
+    font-weight: 600;
+    background-size: 100% 2px;
+}
