@@ -1,0 +1,12 @@
+@mixin borderRadius($radius1, $radius2, $radius3, $radius4){
+    border-top-left-radius: $radius1;
+    border-top-right-radius: $radius2;
+    border-bottom-left-radius: $radius3;
+    border-bottom-right-radius: $radius4;
+}
+
+@mixin wiHe($width, $height, $margin){
+    width: $width;
+    height: $height;
+    margin: $margin;
+}

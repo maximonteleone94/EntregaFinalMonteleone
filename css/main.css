@@ -1,46 +1,4 @@
 @import url("https://fonts.googleapis.com/css2? family= Noto+Sans:wght@500 & display=swap");
-nav {
-  padding: 6px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav img {
-  width: 250px;
-}
-nav img ul {
-  display: flex;
-  list-style: none;
-}
-nav img ul li {
-  margin-right: 30px;
-}
-nav img ul li a {
-  text-decoration: none;
-  font-size: 1, 2em;
-}
-
-#botonera {
-  background-color: black;
-}
-
-#botonera ul li a {
-  color: rgb(239, 127, 26);
-  font-size: 1, 1em;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size 0.3s;
-  border: none;
-}
-
-#botonera ul li a:hover {
-  color: rgb(8, 155, 50);
-  font-weight: 600;
-  background-size: 100% 2px;
-}
-
 * {
   font-family: "Noto Sans", sans-serif;
   color: rgb(239, 127, 26);
@@ -63,6 +21,14 @@ header {
 header h1 {
   text-align: center;
   font-size: 4em;
+}
+
+.objet-fit {
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 h2 {
@@ -174,6 +140,48 @@ footer section div h3 {
   height: 50px;
 }
 
+nav {
+  padding: 6px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 250px;
+}
+nav img ul {
+  display: flex;
+  list-style: none;
+}
+nav img ul li {
+  margin-right: 30px;
+}
+nav img ul li a {
+  text-decoration: none;
+  font-size: 1, 2em;
+}
+
+#botonera {
+  background-color: black;
+}
+
+#botonera ul li a {
+  color: rgb(239, 127, 26);
+  font-size: 1, 1em;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  border: none;
+}
+
+#botonera ul li a:hover {
+  color: rgb(8, 155, 50);
+  font-weight: 600;
+  background-size: 100% 2px;
+}
+
 #img-c {
   background-position: center top;
   margin-left: 10px;
@@ -183,16 +191,28 @@ footer section div h3 {
 .foto-chica {
   width: 300px;
   height: 450px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .foto-media {
   width: 650px;
   height: 800px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .foto-std {
   width: 700px;
   height: 600px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .pie__icon--sm {
@@ -201,6 +221,4 @@ footer section div h3 {
 
 .esp-t {
   margin-top: 3em;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

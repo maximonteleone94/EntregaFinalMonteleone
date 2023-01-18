@@ -2,16 +2,20 @@
     background-position: center top;
     margin-left: 10px;
     width: 100%;
+
 }
 .foto-chica{
     width: 300px;
     height: 450px;
+    @include borderRadius(20px, 20px, 20px, 20px) 
 }
 .foto-media{
     width: 650px;
     height: 800px;
+    @include borderRadius(20px, 20px, 20px, 20px)
 }
 .foto-std{
     width: 700px;
     height: 600px;
+    @include borderRadius(20px, 20px, 20px, 20px)
 }
