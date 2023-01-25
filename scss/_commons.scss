@@ -17,7 +17,7 @@ header h1{
         font-size: 4em;
     }
 .objet-fit{
-@include wiHe(100%, 550px, 0);
+@include wiHe(100%, auto, 0);
         object-fit: cover;
     }
 h2{
@@ -102,3 +102,6 @@ footer section div h3{
         width: 50px;
         height: 50px;
     }
+.btn-c{
+    background-color: $mainColor;
+}

@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "../.git"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../headers"
+		},
+		{
+			"path": "../Icono"
+		},
+		{
+			"path": "../Interiores"
+		},
+		{
+			"path": "../lavado"
+		},
+		{
+			"path": "../multimedia"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../nosotros"
+		},
+		{
+			"path": "../pages"
+		},
+		{
+			"path": "../polarizados"
+		},
+		{
+			"path": "../productos"
+		},
+		{
+			"path": "../promos"
+		},
+		{
+			"path": "../scss"
+		},
+		{
+			"path": "../servicios"
+		},
+		{
+			"path": "../tratamientos"
+		},
+		{
+			"path": "../wireframe.cc"
+		}
+	]
+}
