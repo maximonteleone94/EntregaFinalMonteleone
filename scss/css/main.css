@@ -8,6 +8,7 @@ body {
   background-image: url(../headers/Black-Car-Amoled-Wallpaper.jpg);
   background-repeat: repeat;
   background-attachment: unset;
+  overflow-x: hidden;
 }
 
 a {
